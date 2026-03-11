@@ -59,109 +59,109 @@ Route Optimization Engine
 ▼
 Recommended Route Output
 # Project Structure
-EVV
+```
+EVV/
 │
-├── app
-│ ├── globals.css
-│ ├── layout.tsx
-│ └── page.tsx
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
 │
-├── components
-│ ├── ui
-│ │ ├── button.tsx
-│ │ ├── card.tsx
-│ │ ├── dialog.tsx
-│ │ ├── sidebar.tsx
-│ │ └── other reusable UI components
-│ │
-│ ├── analytics-view.tsx
-│ ├── app-sidebar.tsx
-│ ├── dashboard-shell.tsx
-│ ├── fleet-dashboard.tsx
-│ ├── fleet-maintenance.tsx
-│ ├── individual-dashboard.tsx
-│ ├── individual-maintenance.tsx
-│ ├── login-page.tsx
-│ ├── route-map-visualization.tsx
-│ ├── route-planner-view.tsx
-│ ├── settings-view.tsx
-│ └── theme-provider.tsx
+├── components/
+│   ├── ui/
+│   │   ├── accordion.tsx
+│   │   ├── alert-dialog.tsx
+│   │   ├── alert.tsx
+│   │   ├── aspect-ratio.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button-group.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── carousel.tsx
+│   │   ├── chart.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── command.tsx
+│   │   ├── context-menu.tsx
+│   │   ├── dialog.tsx
+│   │   ├── drawer.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── field.tsx
+│   │   ├── form.tsx
+│   │   ├── hover-card.tsx
+│   │   ├── input-group.tsx
+│   │   ├── input-otp.tsx
+│   │   ├── input.tsx
+│   │   ├── item.tsx
+│   │   ├── kbd.tsx
+│   │   ├── label.tsx
+│   │   ├── menubar.tsx
+│   │   ├── navigation-menu.tsx
+│   │   ├── pagination.tsx
+│   │   ├── popover.tsx
+│   │   ├── progress.tsx
+│   │   ├── radio-group.tsx
+│   │   ├── resizable.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── skeleton.tsx
+│   │   ├── slider.tsx
+│   │   ├── sonner.tsx
+│   │   ├── spinner.tsx
+│   │   ├── switch.tsx
+│   │   ├── table.tsx
+│   │   ├── tabs.tsx
+│   │   ├── textarea.tsx
+│   │   ├── toast.tsx
+│   │   ├── toaster.tsx
+│   │   ├── toggle-group.tsx
+│   │   ├── toggle.tsx
+│   │   ├── tooltip.tsx
+│   │   ├── use-mobile.tsx
+│   │   └── use-toast.ts
+│   │
+│   ├── analytics-view.tsx
+│   ├── app-sidebar.tsx
+│   ├── dashboard-shell.tsx
+│   ├── fleet-dashboard.tsx
+│   ├── fleet-maintenance.tsx
+│   ├── individual-dashboard.tsx
+│   ├── individual-maintenance.tsx
+│   ├── login-page.tsx
+│   ├── route-map-visualization.tsx
+│   ├── route-planner-view.tsx
+│   ├── settings-view.tsx
+│   └── theme-provider.tsx
 │
-├── hooks
-│ ├── use-mobile.ts
-│ └── use-toast.ts
+├── hooks/
+│   ├── use-mobile.ts
+│   └── use-toast.ts
 │
-├── lib
-│ ├── auth-context.tsx
-│ ├── ev-health-model.ts
-│ └── utils.ts
+├── lib/
+│   ├── auth-context.tsx
+│   ├── ev-health-model.ts
+│   └── utils.ts
 │
-├── styles
+├── styles/
 │
-├── package.json
-├── tsconfig.json
+├── node_modules/
+│
+├── .gitignore
+├── components.json
+├── next-env.d.ts
 ├── next.config.mjs
-└── README.md
-
----
-
-# Core Modules
-
-### Route Planner
-Handles route inputs, route comparison, and route recommendation logic.
-
-### EV Health Model
-Predicts battery degradation and energy consumption based on route parameters.
-
-### Dashboard System
-Provides analytics dashboards for both fleet operators and individual EV users.
-
-### UI Component Library
-Reusable component system built with TypeScript for scalable UI development.
-
----
-
-# Installation
-
-### Clone the repository
-git clone https://github.com/your-username/evision.git
-cd evision
-
-
-### Install dependencies
-
-Using npm
-npm install
-
-
-Using pnpm
-pnpm install
-
-
----
-
-### Run development server
-npm run dev
-
-
-or
-pnpm dev
-
-
-Application runs at
-http://localhost:3000
-
-
----
-
-# Screenshots
-<img width="1914" height="880" alt="image" src="https://github.com/user-attachments/assets/4cf90a71-0767-44b4-acb0-50264cc84337" />
-<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/8ae18f7e-6288-40f9-916c-1b9022f69ad6" />
-<img width="1919" height="883" alt="image" src="https://github.com/user-attachments/assets/729c0712-aff8-4d01-9189-13d6c0a5c6d8" />
-<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/8eb24332-5097-4138-85f6-153d619a62af" />
-<img width="1896" height="879" alt="image" src="https://github.com/user-attachments/assets/211aa2c1-49bc-4491-9ea0-a1623e9c069a" />
-
-
+├── package.json
+├── package-lock.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+└── tsconfig.json
+```
 ---
 
 # Use Cases
