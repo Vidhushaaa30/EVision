@@ -5,7 +5,6 @@ AI‑Powered Route Intelligence Platform for Electric Vehicles
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)]()
 [![React](https://img.shields.io/badge/React-18-blue)]()
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-green)]()
 [![Status](https://img.shields.io/badge/status-active-success)]()
 
 ---
